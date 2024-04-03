@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a28e5f39b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./iconos/logo1.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./iconos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"> InstaPic </h2>
+        <span class="icon-ig">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </span>
+    
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit"><ion-icon name="search"></ion-icon></button>
+        </form>
+    
+        <nav class="navigation">
+                <a href="#"><ion-icon name="home"></ion-icon></a>
+                <a href="#"><ion-icon name="chatbubble-ellipses"></ion-icon></a>
+                <a href="#"><ion-icon name="people"></ion-icon></a>
+                <a href="#"><ion-icon name="heart"></ion-icon></a>
+                <button class="btnLogin-popup">Cerrar Sesión</button>
+        </nav>
+    </header>
+
+    <div class="perfil-container" >
+            <img class="img-perfil" src="iconos/messi.jpeg" alt="Messi">
+            <div class="contenedor-cabezera" >
+                <br>
+                <div class="cabezera2" >
+                    <p><b>0</b> Publicaciones </p>
+                    <p><b>395</b> Amigos </p>
+                    <p><b>619</b> Solicitudes </p>
+                </div>
+                <div class="cabezera3" >
+                    <h2>Lionel Andrés Messi</h2>
+                    <p class="p-ciencia"> Tecnología e Ingeniería</p>
+                    <p class="p-creador" > Creador de videos  </p>
+                    <p class="p-dev" > HTML, CSS, JAVASCRIPT</p>
+                    <p class="p-suscribe" >Suscríbete a mi canal</p>
+                    <a class="p-link" href="https://www.youtube.com/@UdeMedellin_">https://www.youtube.com/@UdeMedellin_</a>
+                </div>
+                <br>
+                <div class="cabezera1" >
+                    <button class="editar">Editar perfil</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="historias" >
+            <img class="historia-img" src="iconos/histori.svg" alt="histori">            
+        </div>
+    </div>
+    <main>
+        <div class="linea" ></div>
+        <div class="publica">
+            <h2> Publicaciones </h2>
+                    <span class="icon-publica">
+                <ion-icon name="images"></ion-icon>
+            </span>
+        </div>
+        <br>
+        <div class="gallery">
+            <p>Aún no has subido ninguna foto, ¡Publica una!</p>
+        </div>
+        <div class="subir">
+            <button class="icon-plus" onclick="galeria()">Subir foto</button>
+        </div>      
+    </main>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
